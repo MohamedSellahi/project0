@@ -16,7 +16,8 @@ int main(int argc, char const *argv[]) {
   std::cout<< s;
   char* c_string = new char[s.length() + 1];
   std::strcpy(c_string, s.c_str());
-  printf("%s\n", c_string); 
+  printf("%s\n", c_string);
+  
 
   return 0;
 }
