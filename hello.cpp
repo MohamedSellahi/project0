@@ -4,6 +4,7 @@
 #include <string>
 #include <cstring>
 #include <cstdio>
+#include "hello.h"
 
 int main(int argc, char const *argv[]) {
   typedef boost::variant<int,const char*, std::string> my_var_t;
@@ -18,9 +19,9 @@ int main(int argc, char const *argv[]) {
   std::strcpy(c_string, s.c_str());
   printf("%s\n", c_string);
 
-  int i = 0;
-  i++;
-
+  Complex z; 
+  z.real = 0;
+  z.imag = 0;
 
   return 0;
 }
