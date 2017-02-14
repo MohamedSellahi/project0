@@ -17,7 +17,10 @@ int main(int argc, char const *argv[]) {
   char* c_string = new char[s.length() + 1];
   std::strcpy(c_string, s.c_str());
   printf("%s\n", c_string);
-  
+
+  int i = 0;
+  i++;
+
 
   return 0;
 }
